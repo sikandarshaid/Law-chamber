@@ -1,0 +1,779 @@
+/* 
+@media only screen and (min-width: 1200px){
+	.container {
+		width: 1200px;
+	}
+
+} */
+@media only screen and (max-width: 1400px) {
+	 
+}
+@media only screen and (max-width: 1200px) {
+	.slider_controlar i.prev::after { 
+		width: 150px; 
+	}
+	.slider_controlar i.next::after { 
+		width: 150px; 
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1400px) {
+
+	/* =========Home-Page-Start==================================== */
+	/* Practise-Area-Start */
+	.practise-area {
+		padding: 50px 0 180px;
+	}
+	.practise-slider-controler .left-arrow,
+	.practise-slider-controler .right-arrow {
+		font-size: 22px;
+		height: 55px;
+		width: 55px;
+		line-height: 55px;
+		top: 123%;
+	}
+	.practise-slider-controler .left-arrow {
+		left: 44%;
+	}
+	.practise-slider-controler .right-arrow {
+		right: 44%;
+	}
+	/* ==Our-Partners-Start===== */
+	.our-partners {
+		padding: 70px 0;
+	}
+	.partners-profile {
+		padding: 0 53px;
+	}
+	.partners-slider-controler .left-arrow {
+		left: 0;
+	}
+	.partners-slider-controler .right-arrow {
+		right: 0;
+	}
+}
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+	.header-horizontal-menu .menu-content li a {
+		font-weight: 400;
+		font-size: 16px;
+	}
+	/* =========Home-Page-Start==================================== */
+	.hero-banner {
+		padding: 60px 0;
+	}
+	.hero-title {
+		font-size: 52px;
+	}
+	.hero-banner-text .banner-sub-title {
+		margin: 40px 0;
+	}
+	/* Wellcome-Note-Start */
+	.wellcome-note {
+		padding: 70px 0;
+		padding-bottom: 60px;
+	}
+	.wellcome-note-text {
+		padding-left: 0;
+		margin-top: 45px;
+		text-align: center;
+	}
+	.wellcome-note-image{
+		margin: auto;
+	}
+	/* Practise-Area-Start */
+	.practise-area {
+		padding: 50px 0 158px;
+	}
+	.single-practise {
+		margin: 0 7px;
+	}
+	.practise-slider-controler .left-arrow,
+	.practise-slider-controler .right-arrow {
+		font-size: 22px;
+		height: 55px;
+		width: 55px;
+		line-height: 55px;
+		top: 123%;
+	}
+	.practise-slider-controler .left-arrow {
+		left: 42%;
+	}
+	.practise-slider-controler .right-arrow {
+		right: 42%;
+	}
+	.testimonils-section {
+		padding: 70px 0;
+	}
+	/* =========People-Page-Start=================================== */
+	.partner-section{
+		padding: 70px 0;
+	}
+	/* =========People-Two-Start==================================== */
+	.our-people {
+		padding: 70px 0;
+	}
+	/* =======Footer-Start============= */
+	.footer-widget-3 {
+		margin-left: 0;
+		}
+		.footer-widget-3,
+		.footer-widget-4{
+			margin-top: 24px;
+		}
+}
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+	.slider_controlar i.prev::after { 
+		width: 100px; 
+	}
+	.slider_controlar i.next::after { 
+		width: 100px; 
+	}
+}
+
+
+
+
+
+@media all and (max-width:991px) {
+	.mobile-logo a img {
+		width: 100px;
+		margin: 0 auto;
+		display: flex;
+		padding: 10px;
+	} 
+
+
+	.section-title {
+		font-size: 28px;
+		line-height: 33px;
+	}
+	/* =========Home-Page-Start==================================== */
+	.hero-banner {
+		padding: 60px 0;
+	}
+	.hero-title {
+		font-size: 50px;
+		line-height: 67.98px;
+	}
+	.hero-banner-text .banner-sub-title {
+		margin: 45px 0;
+	}
+	/* Wellcome-Note-Start */
+	.wellcome-note {
+		padding: 55px 0;
+	}
+	.wellcome-note-text {
+		padding-left: 0;
+		margin-top: 35px;
+		text-align: center;
+	}
+	.wellcome-note-image{
+		margin: auto;
+	}
+	/* Practise-Area-Start */
+	.practise-area {
+		padding: 45px 0 115px;
+	}
+	.practise-area-title {
+		text-align: center;
+		margin-bottom: 32px;
+	}
+	.practise-slider-controler .left-arrow,
+	.practise-slider-controler .right-arrow {
+		font-size: 17px;
+		height: 40px;
+		width: 40px;
+		line-height: 40px;
+		top: 117%;
+	}
+	.practise-slider-controler .left-arrow {
+		left: 42%;
+	}
+	.practise-slider-controler .right-arrow {
+		right:42%;
+	}
+
+
+	.single-practise {
+		margin: 0 6px;
+	}
+	.practise-title-name {
+		margin: 18px 0;
+	}
+	.practise-discription p {
+		margin-bottom: 18px;
+	}
+	.practise-area-section{
+		padding: 50px 0 20px;
+	
+	}
+	/* ==Our-Partners-Start===== */
+	.our-partners {
+		padding: 60px 0 117px;
+	}
+	.partners-profile {
+		display: block;
+	}
+	.partners-profile .profile-img {
+		margin: auto;
+	}
+	.profile-discription {
+		margin-top: 24px;
+		text-align: center;
+	}
+	.partners-slider-controler .left-arrow, .partners-slider-controler .right-arrow {
+		font-size: 18px;
+		height: 40px;
+		width: 40px;
+		line-height: 40px;
+		top: 108%;
+	}
+	.partners-slider-controler .left-arrow {
+		left: 43%;
+	}
+	.partners-slider-controler .right-arrow {
+		right: 42%;
+	}
+	.partners-title {
+		margin-bottom: 32px;
+	}
+	/* ===testimonils-section=== */
+	.testimonils-section {
+		padding: 60px 0;
+	}
+	.testimonils-slider-controler .left-arrow, 
+	.testimonils-slider-controler .right-arrow {
+		font-size: 18px;
+		height: 45px;
+		width: 45px;
+		line-height: 40px;
+	}
+	/* =========People-Page-Start=================================== */
+	.partner-section{
+		padding: 60px 0;
+	}
+	.partner-single-item {
+		align-items: normal;
+	}
+	/* =========People-Two-Start==================================== */
+	.our-people {
+		padding: 60px 0;
+	}
+	.people-catagory-title {
+		padding: 11px;
+	}
+	.people-catagory-title .main-title {
+		font-size: 17px;
+	}
+	.our-people-profile {
+		padding: 16px;
+	}
+	.our-people-profile ul li a {
+		font-size: 14px;
+		padding: 10px;
+	}
+	.our-people-details {
+		padding: 16px;
+	}
+	.people-details-profile .profile-image {
+		width: 100px;
+		min-height: 100px;
+	}
+	.people-profile-discription ul li a {
+		font-size: 14px;
+		margin-top: 10px;
+	}
+	.people-qualification {
+		padding: 16px;
+		margin-top: 16px;
+	}
+	.qualification-data p:not(:first-child) {
+		margin-top: 16px;
+	}
+	.qualification-data {
+		margin-top: 10px;
+	}
+	.qualification-data p{
+		font-size: 14px;
+	}
+	/* =========Client-Page-Start=================================== */
+	.cstm-section {
+		padding: 60px 0;
+	}
+	.cstm-item-wrap .cstm-title {
+		padding: 20px;
+	}
+	.cstm-single-item {
+		padding: 20px;
+	}
+	.cstm-single-item .cstm-product-title .cstm-link{
+		font-size: 15px;
+		padding: 20px;
+	}
+	/* =========Client-Page-End===================================== */
+	/* =========Practise-area-details=============================== */
+	.practise-area-details-section {
+		padding: 60px 0;
+	}
+	.details-catagory-title {
+		padding: 16px;
+	}
+	.practise-area-single-item {
+		padding: 16px;
+	}
+	.details-catagory-title .main-title {
+		font-size: 17px;
+	}
+	.practise-area-single-item ul li a {
+		font-size: 14px;
+		padding: 10px;
+	}
+	.practise-area-details-wrap {
+		padding: 16px;
+		margin-bottom: 24px;
+	}
+	.practise-area-details-title {
+		padding: 16px;
+	}
+	.details-logo-image {
+		width: 100px;
+		height: 100px;
+	}
+	.practise-area-details-discription {
+		padding: 16px;
+	}
+	/* =======Footer-Start============= */
+	.footer-widget-3 {
+	margin-left: 0;
+	}
+	.footer-widget-3,
+	.footer-widget-4{
+		margin-top: 24px;
+	}
+}
+
+
+
+
+@media (max-width: 767px) {
+	.section-title {
+		font-size: 26px;
+	}
+	/* =========Home-Page-Start==================================== */
+	.header-area-title .section-title {
+		font-size: 25px;
+		margin-bottom: 10px;
+	}
+	.hero-banner {
+		padding: 40px 0;
+	}
+	.hero-title {
+		font-size: 37px;
+		line-height: 55.98px;
+	}
+	.hero-banner-text .banner-sub-title {
+		margin: 35px 0;
+	}
+	/* Wellcome-Note-Start */
+	.wellcome-note {
+		padding: 50px 0;
+	}
+	.wellcome-note-image {
+		width: 289px;
+		height: 328px;
+		margin: auto;
+	}
+	.wellcome-note-image .profile-image {
+		top: 15px;
+		left: 15px;
+	}
+	.wellcome-note-text {
+		padding-left: 0;
+		margin-top: 30px;
+	}
+	.wellcome-note-text .section-title {
+		margin: 16px 0;
+	}
+	.wellcome-note-image .profile-title {
+		padding: 20px;
+		left: 15px;
+	}
+	/* Practise-Area-Start */
+	.practise-area {
+		padding: 35px 0 120px;
+	}
+	.practise-area-title {
+		margin-bottom: 32px;
+		line-height: 33px;
+	}
+	.single-practise {
+		padding: 16px;
+	}
+	.practise-slider-controler .left-arrow,
+	.practise-slider-controler .right-arrow {
+		top: 118%;
+	}
+	.practise-slider-controler .left-arrow {
+		left: 39.5%;
+	}
+	.practise-slider-controler .right-arrow {
+		right: 39.5%;
+	}
+	/* ==Our-Partners-Start===== */
+	.our-partners {
+		padding: 50px 0 135px;
+	}
+	.partners-profile {
+		display: block;
+	}
+	.partners-title {
+		margin-bottom: 32px;
+	}
+	.partners-profile .profile-discription .name {
+		font-size: 20px;
+	}
+	.partners-profile .profile-img {
+		margin: auto;
+	}
+	.profile-discription {
+		margin-top: 24px;
+		text-align: center;
+	}
+	.partners-slider-controler .left-arrow, .partners-slider-controler .right-arrow {
+		font-size: 18px;
+		height: 40px;
+		width: 40px;
+		line-height: 40px;
+		top: 107%;
+	}
+	.partners-slider-controler .left-arrow {
+		left: 37%;
+	}
+	.partners-slider-controler .right-arrow {
+		right: 37%;
+	}
+	/* ===testimonils-section=== */
+	.testimonils-section {
+		padding: 50px 0;
+	}
+	.testimonils-title .short-title {
+		margin-bottom: 20px;
+	}
+	.testimonils-card-wrap {
+		margin: 32px 0;
+	}
+	.testimonils-single-card {
+		padding: 32px 16px;
+		margin: 0 12px;
+	}
+	.testimonils-card-profile-discription .name {
+		margin-top: 16px;
+	}
+	.testimonils-card-profile-discription .name-title {
+		margin: 16px 0;
+	}
+/* =========People-Page-Start=================================== */
+	.partner-section{
+		padding: 50px 0;
+	}
+	.partner-queality-title {
+		padding: 20px;
+	}
+	.partner-profile-image {
+		width: 122px;
+		min-height: 122px;
+	}
+	.partner-profile {
+		padding: 20px;
+	}
+	.partner-profile .nav {
+		margin-bottom: 24px;
+	}
+	.partner-single-item {
+		padding: 20px;
+		display: block;
+	}
+	.partner-discription-image {
+		margin: auto;
+	}
+	.partner-discription-data {
+		margin-top: 24px;
+	}
+	/* =========People-Two-Start==================================== */
+	.our-people {
+		padding: 50px 0;
+	}
+	.our-people-details {
+		margin-bottom: 32px;
+	}
+	/* =========Client-Page-Start=================================== */
+	.cstm-section {
+		padding: 50px 0;
+	}
+	.cstm-item-wrap .cstm-title {
+		padding: 16px;
+	}
+	.cstm-single-item {
+		padding: 16px;
+	}
+	.cstm-single-item .cstm-product-title .cstm-link {
+		font-size: 15px;
+		padding: 16px;
+	}
+	/* =========Client-Page-End===================================== */
+	/* =========Practise-area-details=============================== */
+	.practise-area-details-section {
+		padding: 50px 0;
+	}
+	.practise-area-details-title .main-title {
+		font-size: 16px;
+	}
+	/* =======Footer-Start============= */
+	.pt-20 {
+		padding-top: 10px;
+	} 
+	.slider_controlar { 
+		margin-bottom: 20px;
+	}	 
+	.footer_section .widget_title {
+		font-size: 20px; 
+		margin-bottom: 25px;
+		margin-top: 30px;
+	}
+	.footer-widget-1 p { 
+		margin: 32px 0px 32px 0;
+		font-size: 14px;
+	}
+	.footer_section {
+		padding: 50px 0 30px;
+	}
+	.widget_menu li a {
+		font-size: 14px;
+	}
+	.footer-widget-3 {
+		margin-left: 0;
+	}
+}	
+
+
+
+@media all and (max-width:575px) {
+.section-title {
+font-size: 22px;
+}
+p{
+	font-size: 14px;
+}
+.read-more-btn{
+	padding: 10px 12px;
+}
+/* =========Home-Page-Start==================================== */
+.header-area-title .section-title {
+	margin-bottom: 10px;
+	font-size: 24px;
+}
+.header-area-title .sub-title {
+	font-size: 13px;
+}
+.hero-banner{
+	padding: 40px 0;
+}
+.hero-title{
+	font-size: 28px;
+	line-height: 39.97px;
+
+}
+.hero-banner-text .banner-sub-title {
+	margin: 28px 0;
+	font-size: 14px;
+}
+/* Wellcome-Note-Start */
+.wellcome-note {
+	padding: 40px 0;
+}
+.wellcome-note-text .section-title {
+	margin: 12px 0;
+}
+.wellcome-note-image .profile-title {
+	padding: 20px;
+	left: 15px;
+}
+/* Practise-Area-Start */
+.practise-area {
+	padding: 40px 0;
+	padding-bottom: 108px;
+}
+.practise-area-title {
+	margin-bottom: 24px;
+}
+.practise-title-name {
+	margin: 16px 0;
+}
+.practise-discription p {
+	margin-bottom: 16px;
+  }
+.practise-slider-controler .left-arrow,
+.practise-slider-controler .right-arrow {
+	font-size: 15px;
+	height: 31px;
+	width: 31px;
+	line-height: 28px;
+	top: 119%;
+}
+.practise-slider-controler .left-arrow {
+	left: 37%;
+}
+.practise-slider-controler .right-arrow {
+	right: 37%;
+}
+.practise-area-section{
+	padding: 40px 0 20px;
+
+}
+.wellcome-note-image .profile-title .name {
+	margin-bottom: 12px;
+}
+/* Notable-Representations */
+.representation-wrap {
+	padding: 16PX 0 40px;
+}
+.representation-title {
+	margin: 20px 0 35px;
+}
+.representation-single-item {
+	padding: 12PX;
+	margin-top: 12PX;
+}
+/* ==Our-Partners-Start===== */
+.our-partners {
+	padding: 40px 0 123px;
+}
+/* ===testimonils-section=== */
+.testimonils-section {
+	padding: 40px 0;
+}
+.testimonils-title .short-title {
+	margin-bottom: 20px;
+}
+.testimonils-card-wrap {
+	margin: 32px 0;
+}
+.testimonils-single-card {
+	padding: 32px 16px;
+	margin: 0 12px;
+}
+.testimonils-card-profile-discription .name {
+	margin-top: 16px;
+}
+.testimonils-card-profile-discription .name-title {
+	margin: 16px 0;
+}
+/* =========People-Page-Start=================================== */
+.partner-section{
+	padding: 40px 0;
+}
+.partner-queality-title {
+  padding: 16px;
+}
+.partner-profile-image {
+	width: 70px;
+	min-height: 70px;
+}
+.partner-profile {
+	padding: 16px;
+}
+.partner-profile .nav {
+	gap: 7px;
+	margin-bottom: 7px;
+}
+.partner-single-item {
+	padding: 16px;
+	display: block;
+}
+.partner-discription-image {
+	margin: auto;
+}
+.discrip-data-title {
+	margin-bottom: 20px;
+}
+.partner-discription-data {
+	margin-top: 20px;
+}
+/* =========People-Page-End===================================== */
+/* =========People-Two-Start==================================== */
+.our-people {
+	padding: 40px 0;
+}
+/* =========Client-Page-Start=================================== */
+.cstm-section{
+	padding: 40px 0;
+}
+.cstm-item-wrap .cstm-title {
+	padding: 12px;
+}
+.cstm-single-item {
+	padding: 12px;
+}
+.cstm-single-item .cstm-product-title .cstm-link {
+	font-size: 14px;
+	padding: 12px;
+}
+/* =========Client-Page-End===================================== */
+/* =========Client-Details-Start================================ */
+.cstm-details-section {
+	padding: 40px 0;
+}
+.cstm-detais-title {
+	padding: 16px;
+	text-align: center;
+}
+.cstm-details-text-back {
+	padding: 12px;
+}
+.cstm-details-text {
+	padding: 16px;
+}
+.cstm-details-text .short-data:not(:last-child) {
+	margin-bottom: 16px;
+}
+/* =========Client-Details-End================================== */
+/* =========Practise-area-details=============================== */
+.practise-area-details-section {
+	padding: 40px 0;
+}
+.practise-area-details {
+	margin-top: 24px;
+}
+.practise-area-details-discription .data:not(:last-child) {
+	margin-bottom: 16px;
+}
+
+}
+
+
+
+
+
+
+
+@media all and (max-width:520px) {
+	 
+	 
+}
+
+@media all and (max-width:490px) {
+ 
+	.mobile-logo a img {
+		width: 120px;
+	}
+
+	.mobile-logo a img {
+		width: 83px;
+		margin: 0 auto;
+		display: flex;
+		padding: 10px;
+	} 
+}
