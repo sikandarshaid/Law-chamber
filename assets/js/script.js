@@ -142,6 +142,82 @@
 			}
 		]
 	});
+	// Our-Service
+	$('.service-slider').slick({
+		dots: false,
+		infinite: true,
+		speed: 1000,
+		autoplay: false,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		prevArrow: $('.prev-sr'),
+		nextArrow: $('.next-sr'),
+		responsive: [
+			{
+				breakpoint: 1401,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1,
+					infinite: true,
+					dots: false,
+				}
+			},
+			{
+				breakpoint: 1200,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1,
+					infinite: true,
+					dots: false,
+				}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+		]
+	});
+	// Clients-Slider
+	$('.client-slider').slick({
+		dots: false,
+		infinite: true,
+		speed: 1000,
+		autoplay: false,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		prevArrow: $('.prev-cli'),
+		nextArrow: $('.next-cli'),
+		responsive: [
+			{
+				breakpoint: 1401,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1,
+					infinite: true,
+					dots: false,
+				}
+			},
+			{
+				breakpoint: 1200,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1,
+					infinite: true,
+					dots: false,
+				}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+		]
+	});
 	// Our-Partners
 	$('.partners-profile-slider').slick({
 		dots: false,

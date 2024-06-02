@@ -37,6 +37,24 @@
 	.practise-slider-controler .right-arrow {
 		right: 44%;
 	}
+	/* ==Our-Service-Start======  */
+	.service-section{
+		padding-bottom: 60px;
+	}
+	.service-slider-controler .left-arrow,
+	.service-slider-controler .right-arrow {
+		font-size: 22px;
+		height: 55px;
+		width: 55px;
+		line-height: 55px;
+		top: 123%;
+	}
+	.service-slider-controler .left-arrow {
+		left: 44%;
+	}
+	.service-slider-controler .right-arrow {
+		right: 44%;
+	}
 	/* ==Our-Partners-Start===== */
 	.our-partners {
 		padding: 70px 0;
@@ -51,8 +69,6 @@
 		right: 0;
 	}
 }
-
-
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) { 
 	.header-horizontal-menu .menu-content li a {
@@ -106,6 +122,29 @@
 	.testimonils-section {
 		padding: 70px 0;
 	}
+	/* ==Our-Service-Start======  */
+	.service-section{
+		padding-top: 70px;
+		padding-bottom: 60px;
+	}
+	.service-slider-controler .left-arrow,
+	.service-slider-controler .right-arrow {
+		font-size: 22px;
+		height: 55px;
+		width: 55px;
+		line-height: 55px;
+		top: 123%;
+	}
+	.service-slider-controler .left-arrow {
+		left: 42%;
+	}
+	.service-slider-controler .right-arrow {
+		right: 42%;
+	}
+	/* Representations */
+	.representations{
+		padding-bottom: 70px;
+	}
 	/* =========People-Page-Start=================================== */
 	.partner-section{
 		padding: 70px 0;
@@ -132,10 +171,6 @@
 		width: 100px; 
 	}
 }
-
-
-
-
 
 @media all and (max-width:991px) {
 	.mobile-logo a img {
@@ -195,8 +230,6 @@
 	.practise-slider-controler .right-arrow {
 		right:42%;
 	}
-
-
 	.single-practise {
 		margin: 0 6px;
 	}
@@ -209,6 +242,25 @@
 	.practise-area-section{
 		padding: 50px 0 20px;
 	
+	}
+	/* ==Our-Service-Start======  */
+	.service-section{
+		padding-top: 60px;
+		padding-bottom: 62px;
+	}
+	.service-slider-controler .left-arrow,
+	.service-slider-controler .right-arrow {
+		font-size: 17px;
+		height: 40px;
+		width: 40px;
+		line-height: 40px;
+		top: 117%;
+	}
+	.service-slider-controler .left-arrow {
+		left: 42%;
+	}
+	.service-slider-controler .right-arrow {
+		right: 42%;
 	}
 	/* ==Our-Partners-Start===== */
 	.our-partners {
@@ -239,6 +291,10 @@
 	}
 	.partners-title {
 		margin-bottom: 32px;
+	}
+	/* Representations */
+	.representations{
+		padding-bottom: 60px;
 	}
 	/* ===testimonils-section=== */
 	.testimonils-section {
@@ -355,9 +411,6 @@
 	}
 }
 
-
-
-
 @media (max-width: 767px) {
 	.section-title {
 		font-size: 26px;
@@ -422,6 +475,21 @@
 	.practise-slider-controler .right-arrow {
 		right: 39.5%;
 	}
+	/* ==Our-Service-Start======  */
+	.service-section{
+		padding-top: 50px;
+		padding-bottom: 64px;
+	}
+	.service-slider-controler .left-arrow,
+	.service-slider-controler .right-arrow {
+		top: 118%;
+	}
+	.service-slider-controler .left-arrow {
+		left: 39.5%;
+	}
+	.service-slider-controler .right-arrow {
+		right: 39.5%;
+	}
 	/* ==Our-Partners-Start===== */
 	.our-partners {
 		padding: 50px 0 135px;
@@ -442,7 +510,8 @@
 		margin-top: 24px;
 		text-align: center;
 	}
-	.partners-slider-controler .left-arrow, .partners-slider-controler .right-arrow {
+	.partners-slider-controler .left-arrow,
+	.partners-slider-controler .right-arrow {
 		font-size: 18px;
 		height: 40px;
 		width: 40px;
@@ -454,6 +523,10 @@
 	}
 	.partners-slider-controler .right-arrow {
 		right: 37%;
+	}
+	/* Representations */
+	.representations{
+		padding-bottom: 50px;
 	}
 	/* ===testimonils-section=== */
 	.testimonils-section {
@@ -636,7 +709,34 @@ p{
 .wellcome-note-image .profile-title .name {
 	margin-bottom: 12px;
 }
+/* ==Our-Service-Start======  */
+.service-section{
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+.service-slider-controler .left-arrow,
+.service-slider-controler .right-arrow {
+	font-size: 15px;
+	height: 31px;
+	width: 31px;
+	line-height: 28px;
+	top: 119%;
+}
+.service-slider-controler .left-arrow {
+	left: 37%;
+}
+.service-slider-controler .right-arrow {
+	right: 37%;
+}
+
+
+
+
+
 /* Notable-Representations */
+.representations{
+	padding-bottom: 40px;
+}
 .representation-wrap {
 	padding: 16PX 0 40px;
 }
