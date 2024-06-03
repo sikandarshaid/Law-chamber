@@ -149,8 +149,12 @@
 	.partner-section{
 		padding: 70px 0;
 	}
-	/* =========People-Two-Start==================================== */
+	/* =========People-Two-End====================================== */
 	.our-people {
+		padding: 70px 0;
+	}
+	/* ==================== Photo-Gallary-Start =================== */
+	.photo-gallery-section{
 		padding: 70px 0;
 	}
 	/* =======Footer-Start============= */
@@ -370,6 +374,10 @@
 		padding: 20px;
 	}
 	/* =========Client-Page-End===================================== */
+	/* ==================== Photo-Gallary-Start =================== */
+	.photo-gallery-section{
+		padding: 60px 0;
+	}
 	/* =========Practise-area-details=============================== */
 	.practise-area-details-section {
 		padding: 60px 0;
@@ -597,6 +605,10 @@
 		padding: 16px;
 	}
 	/* =========Client-Page-End===================================== */
+	/* ==================== Photo-Gallary-Start =================== */
+	.photo-gallery-section{
+		padding: 50px 0;
+	}
 	/* =========Practise-area-details=============================== */
 	.practise-area-details-section {
 		padding: 50px 0;
@@ -850,7 +862,17 @@ p{
 .practise-area-details-discription .data:not(:last-child) {
 	margin-bottom: 16px;
 }
-
+/* ==================== Photo-Gallary-Start =================== */
+.photo-gallery-section{
+	padding: 40px 0;
+}
+/* Pagination */
+.pagination {
+	margin-top: 12px;
+}
+.pagination-item .pag-item {
+	margin-right: 4px;
+}
 }
 
 

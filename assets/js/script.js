@@ -253,3 +253,6 @@ function myFunction() {
 	  moreText.style.display = "inline";
 	}
 }
+$('.gallery-image a').magnificPopup({
+	type: 'image'
+  });
