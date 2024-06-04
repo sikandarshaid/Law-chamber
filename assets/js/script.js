@@ -253,6 +253,16 @@ function myFunction() {
 	  moreText.style.display = "inline";
 	}
 }
+$('.video-play-button').magnificPopup({
+	type: 'iframe',
+});
 $('.gallery-image a').magnificPopup({
-	type: 'image'
-  });
+	type: 'image',
+	enabled: false,
+	preload: [0,2],
+	navigateByImgClick: true,
+	arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>',
+	tPrev: 'Previous (Left arrow key)',
+	tNext: 'Next (Right arrow key)',
+	tCounter: '<span class="mfp-counter">%curr% of %total%</span>'
+});
